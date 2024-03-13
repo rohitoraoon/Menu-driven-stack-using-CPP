@@ -1,4 +1,4 @@
 # Menu_driven_stack_using_CPP
 'Menu driven stack' is a command line interfce for Stack data structure.
-Here all all the stack operations are performes in menu drives form.
+Here all the stack operations are performed according to menu.
 Note:- Code is implemented in turboc++.
