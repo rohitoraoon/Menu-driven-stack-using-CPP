@@ -21,30 +21,35 @@ void main()
                 cin.sync();
                 gotoxy(50,21);cout<<"WRONG CHOICE!!!";
                 gotoxy(33,24);cout<<"Press any key...";
-        }
-        switch(ch)
-        {
-                case 1:
-                        push(10);
-                        goto lable;
-
-                case 2:
-                        pop();
-                        goto lable;
-
-                case 3:
-                        display();
-                        goto lable;
-
-                case 4:
-                        return;
-
-                default:
-                        gotoxy(50,21);cout<<"WRONG CHOICE!!!";
-                        gotoxy(33,24);cout<<"Press any key...";
-                        cin.sync();
-                        getch();
-                        goto lable;
+                getch();
+                goto lable;
         }
 
+        else{
+
+                switch(ch)
+                {
+                        case 1:
+                                push(10);
+                                goto lable;
+        
+                        case 2:
+                                pop();
+                                goto lable;
+        
+                        case 3:
+                                display();
+                                goto lable;
+        
+                        case 4:
+                                return;
+        
+                        default:
+                                gotoxy(50,21);cout<<"WRONG CHOICE!!!";
+                                gotoxy(33,24);cout<<"Press any key...";
+                                cin.sync();
+                                getch();
+                                goto lable;
+                }
+        }
 }
